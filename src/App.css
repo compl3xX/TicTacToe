@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Adjust this property to align elements as needed */
+  max-width: 400px; /* Optional: Set a maximum width for the grid */
+  margin: 0 auto;
+}
+
+.item {
+  width: 30%; /* Adjust the width to determine the number of columns per row */
+  margin-bottom: 10px; /* Optional: Add margin to separate the grid items */
+  border: 1px solid #ccc; /* Optional: Add borders for styling */
+  padding: 2px;
+  height: 100px;
+}
+
+.playerLabel {
+  text-align:center
+}
